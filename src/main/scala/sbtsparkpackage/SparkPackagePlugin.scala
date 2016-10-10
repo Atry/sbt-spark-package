@@ -75,7 +75,7 @@ object SparkPackagePlugin extends AutoPlugin {
 
   override def requires = plugins.JvmPlugin && AssemblyPlugin
 
-  override def trigger = allRequirements
+  override def trigger = noTrigger
 
   def listFilesRecursively(dir: File): Seq[File] = {
     val list = IO.listFiles(dir)
