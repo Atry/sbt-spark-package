@@ -1,3 +1,4 @@
+enablePlugins(SparkPackagePlugin)
 
 import Shading._
 
